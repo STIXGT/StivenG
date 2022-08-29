@@ -1,22 +1,32 @@
 #html
 {
-    background-color:#01303f;
+    background-color:#02577a;
 }
+
 
 #wel,#p1,#p2
 {
     text-align: center;
 }
 
-.azul0
+#p0
 {
-    color:#d4f0fc;
-    background-color: 	#89d6fb;
+    text-align:center;
 }
 
-#pa1
-{
-    background-color: #a9e159;
-    text-align:left;
 
+.azul0,.azul2,.azul3
+{
+    color:#d4f0fc
+}
+
+.verde0
+{
+    color: black;
+    background-color: #a9e159;
+}
+
+#image0
+{
+    text-align: center;
 }
