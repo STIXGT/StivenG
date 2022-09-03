@@ -1,6 +1,7 @@
-#html
+html
 {
     background-color:#02577a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -17,16 +18,20 @@
 
 .azul0,.azul2,.azul3
 {
-    color:#d4f0fc
+    color:#d4f0fc;
 }
 
 .verde0
 {
-    color: black;
-    background-color: #a9e159;
+    color: #a9e159;
 }
 
 #image0
 {
     text-align: center;
+}
+
+#redes
+{
+    color:#d4f0fc;
 }
