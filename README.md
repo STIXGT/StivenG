@@ -1,2 +1,2 @@
-# StivenG
-Example of a Github Page
+# #### Web site of Stiven Guanoquiza 
+###### Information personal
