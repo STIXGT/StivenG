@@ -1,2 +1,2 @@
-# #### Web site of Stiven Guanoquiza 
+#  Web site of Stiven Guanoquiza 
 ###### Information personal
