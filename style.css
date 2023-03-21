@@ -1,58 +1,73 @@
-* {
+*{
     box-sizing: border-box;
-    padding: 0px
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
-html
-{
-    background-color:#136b91;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+html{
+    background-color: antiquewhite;
+    font-size: 18px;
 }
 
-.header-nav li{
-    display: inline-block;
+body{
+   width: 60rem;
+   height: 10rem;
+  
 }
 
-nav{
-    text-align: center;
+.game_texto1{
+    font-size: 0.8rem;
+    margin-left: 9rem;
+    margin-bottom: 0px;
+    margin-top: 3rem;
 }
 
-.header-nav__item {
-    color: rgb(201, 245, 200);
-    text-decoration: none;
+.florecita{
+    height: 15rem;
+    width: 20rem;
+    margin-right: 3.5rem;
+    margin-top: 1rem;
+    
 }
 
-.header-nav__item:hover{
-    color: black;
+.game_limpiar{
+    font-size: 1rem;
 }
 
-.header-nav__item:active{
-    color: gray;
+.game_color{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 7rem;
 }
 
-.header-nav__item::after{
-    content: " |";
+.italia{
+    height: 15rem;
+    width: 20rem;
+    margin-top: -70rem;
+    
 }
 
-.main-container__item{
-    text-align: center;
-    color:#d4f0fc;
+.parrafo1{
+    color: #49a34b;
+    margin-bottom: 0px;
+    margin-right: 5rem;
 }
 
-h1 + .main-container__item{
-    color: rgb(157, 226, 66);
+.musiquita{
+    height: 1.5rem;
+    width: 1.5rem; 
+    margin-left: 0rem;
 }
 
-
-.form-container{
-    text-align: center;
+.texto2{
+    font-size: 0.75rem;
+    margin-left: 25rem ;
 }
 
-.figure-container{
-    text-align: center;
+.texto_Final{
+    margin-bottom: 10rem;
 }
 
-.figure-container__item{
-    color: #d4f0fc;
+.textocolor{
+    color: firebrick;
 }
