@@ -7,29 +7,31 @@ body{
     background: #1a1a1a;
 }
 
+header{
+    display: grid;
+    place-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 .header-title{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 0;
-    width: 100%;
-    position: sticky;
-    top: 0;
     animation: scroll-title linear both;
     animation-timeline: scroll(root block);
     animation-range: 0 300px;
     color: #fff;
-    font-size: 30px;
-    z-index: 1;
+    font-size: 25px;
     box-shadow: 0 0 10px #97bf9c;
 }
-
 
 @keyframes scroll-title{
 
     to{
         background: #00000050;
         backdrop-filter: blur(5px);
-        font-size: 35px;
+        font-size: 28px;
     }
 }
 
@@ -52,6 +54,12 @@ body{
     border: 1px solid #000000;
 }
 
+@media (width<=450px) {
+    .main-text{
+        font-size: 15px;
+        transition: all 300ms linear;
+    }
+}
 
 .main-galery{
     display: flex;
@@ -64,7 +72,6 @@ body{
 .galery-title{
     color: #000000;
     background: #97bf9c;
-    width: 20%;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px #6bef7d;
