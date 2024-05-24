@@ -12,11 +12,10 @@ body{
 
 .header-container{
     background:#fff;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 0;
     border-bottom: 1px solid #ccc;
 }
@@ -75,8 +74,6 @@ body{
 
 .main-contain{
     margin-top: 115px; 
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 
@@ -163,18 +160,11 @@ main section{
 .footer-container{
     display: flex;
     background-color: #40404050;
-    width:100%;
     flex-flow: column wrap;
 }
 
 
-.footer-container h3{
-    font-size: 1.5rem;
-    margin-left: 20px;
-}
-
 .footer-container ul{
-    width: 150px;
     list-style-type: none;  
     color: #959595;
     font-size: 1.3rem;
@@ -184,12 +174,11 @@ main section{
 .footer-container ul li a{
     text-decoration: none;
     color: #000;
+    transition: all .3s ease;
 }
 
 
 
 .footer-container a:hover{
     color: #ff3936;
-    transition: all .3s ease;
 }
-
