@@ -1,0 +1,45 @@
+:root{
+    font-family: monospace;
+    color: #fff;
+}
+
+.header-container{
+    text-align: center;
+}
+
+body{
+    background: #191919;
+    margin: 0;
+    font-size: 20px;
+}
+
+.main-contain{
+    display: grid;
+    place-content: center;
+}
+
+.main-section-form fieldset{
+    border: none;
+} 
+
+.main-section-form form{
+    font-size: 15px;
+    background:#404040;
+    max-width: 800px;
+    border-radius: 5px; 
+} 
+
+.main-section-form label{
+    padding-top: 10px;
+}
+
+.main-section-form input{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    border: none;
+    text-transform: uppercase;
+}

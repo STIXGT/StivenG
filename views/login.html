@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header-container">
+        <h1>Login</h1>
+    </header>
+
+    <main class="main-contain">
+        <h2>Insert Information</h2>
+
+        <section class="main-section-form">
+            <h2>Register Users</h2>
+            <form action="../views/gift.html" method="get">
+                <fieldset>
+                    <label>Name:
+                        <input type="text" name="name" placeholder="Full Name" 
+                        required autocomplete="off">
+                    </label>
+
+                    <label>Email:
+                        <input  type="email" name="email" placeholder="example@gmail.com" 
+                        required autocomplete="off">
+                    </label>
+
+                    <label>Phone:
+                        <input type="tel" name="phone" placeholder="0991581684" pattern="[0-9]{9}" autocomplete="off">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <label> Why do you want to contact me?
+                        <select name="other" id="other">
+                            <option value="1">Job</option>
+                            <option value="2">Learned</option>
+                            <option value="3">Good reviews</option>
+                        </select>
+                    </label>
+
+                    <datalist id="language">
+                        <option value="JavaScript"></option>
+                        <option value="Dart"></option>
+                        <option value="Kotlin"></option>
+                        <option value="Java"></option>
+                        <option value="C#"></option>
+                    </datalist>
+                    
+                    <label>Programing Languaje
+                        <input list="language" name="language">
+                    </label>
+
+                    <label> Accept terms and conditions
+                        <input type="checkbox" name="terms" required>
+                    </label>
+
+                    <button type="submit" >submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
